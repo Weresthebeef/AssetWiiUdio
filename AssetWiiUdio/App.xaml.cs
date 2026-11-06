@@ -1,0 +1,1 @@
+using System.Windows; namespace AssetWiiUdio; public partial class App : Application {}

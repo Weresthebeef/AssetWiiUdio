@@ -1,0 +1,9 @@
+v0.5.5 archive correction
+
+PK-FFFF index: read from AES-CTR decrypted outer header.
+Embedded PK0304 local entries: read from ORIGINAL ciphertext, and reset CTR for each entry.
+The v0.5.4 browser accidentally applied CTR twice to member data by using result.Bytes.
+The Archive.Source for PK now retains original ciphertext for member export.
+DBNK handling remains unchanged.
+
+This is a source-only patch; not compiled or tested with game data here.

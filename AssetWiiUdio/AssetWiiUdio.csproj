@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>AssetWiiUdio</AssemblyName></PropertyGroup>  <ItemGroup><Content Include="asset_names.tsv" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+<ItemGroup><EmbeddedResource Include="DIBASE.json" LogicalName="AssetWiiUdio.DIBASE.json" /></ItemGroup></Project>
